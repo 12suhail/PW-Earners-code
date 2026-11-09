@@ -10,9 +10,9 @@ let discountedPrices = []
 // }
 
 
-originalPrices.forEach((value) => {
-    discountedPrices.push(value * 0.9) // 10% discount
-})
+// originalPrices.forEach((value) => {
+//     discountedPrices.push(value * 0.9) // 10% discount
+// })
 
 // console.log(originalPrices);
 // console.log(discountedPrices);
@@ -47,12 +47,15 @@ let students = [
 // let studentNames = []
 
 // students.forEach((value) => {
-//     studentNames.push(value.name)
+//     // studentNames.push(value.marks);
+//     // studentNames.push(value.name,value.marks);
+//     studentNames.push(value.name);
 // })
 
-const studentNames = students.map((student) => student.name)
-const studentMarks = students.map((student) => student.marks)
+// const studentNames = students.map((student) => student.name)
+// const studentMarks = students.map((student) => student.marks)
 
+// console.log(studentNames);
 // console.log(studentNames, studentMarks);
 
 // let boostedMarks = students.map((student) => {
