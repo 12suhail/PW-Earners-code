@@ -26,6 +26,7 @@ function outter() {
 const counter1 = outter();
 const counter2 = outter();
 counter1();
+counter1();
 counter2();
 counter2();
 counter2();

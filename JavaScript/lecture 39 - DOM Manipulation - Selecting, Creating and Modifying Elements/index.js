@@ -10,7 +10,7 @@
 // let p = document.querySelector("#desc")
 
 // p.textContent = "<h2>Hello Dostooooooo </h2>"
-// p.innerHTML = "<h2>Hello Dostooooooo </h2>"  // very very risky
+// p.innerHTML = "<h2>Hello Dostooooooo 11</h2>"  // very very risky
 
 // console.log(p.textContent);
 // console.log(p.innerHTML);

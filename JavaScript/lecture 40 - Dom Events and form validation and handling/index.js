@@ -35,30 +35,30 @@
 
 
 
-// let outter = document.querySelector("#outter")
-// let inner = document.querySelector("#inner")
-// let btn2 = document.querySelector("#btn2")
-// let body = document.querySelector("body")
+let outter = document.querySelector("#outter")
+let inner = document.querySelector("#inner")
+let btn2 = document.querySelector("#btn2")
+let body = document.querySelector("body")
 
-// body.addEventListener('click', (e) => {
-//     e.stopPropagation()
-//     console.log("body");
-// })
+body.addEventListener('click', (e) => {
+    e.stopPropagation()
+    console.log("body");
+})
 
-// outter.addEventListener('click', (e) => {
-//     e.stopPropagation()
-//     console.log("Outter");
-// })
+outter.addEventListener('click', (e) => {
+    e.stopPropagation()
+    console.log("Outter");
+})
 
-// inner.addEventListener('click', (e) => {
-//     e.stopPropagation()
-//     console.log("Inner");
-// })
+inner.addEventListener('click', (e) => {
+    e.stopPropagation()
+    console.log("Inner");
+})
 
-// btn2.addEventListener('click', (e) => {
-//     e.stopPropagation()
-//     console.log("Btn2");
-// })
+btn2.addEventListener('click', (e) => {
+    e.stopPropagation()
+    console.log("Btn2");
+})
 
 
 let products = [

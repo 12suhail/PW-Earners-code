@@ -46,16 +46,16 @@ let city = "Delhi"
 //     console.log(city);
 // }
 
-// function random(fn) {
-//     let city = "Varanasi"
-//     function printCity() {
-//         console.log(city);
-//     }
-//     return printCity
-// }
+function random(fn) {
+    let city = "Varanasi"
+    function printCity() {
+        console.log(city);
+    }
+    return printCity
+}
 
-// let printCity = random();
-// printCity()
+let printCity = random();
+printCity()
 
 // random(printCity)
 
